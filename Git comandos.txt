@@ -1,0 +1,65 @@
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada
+$ git version
+git version 2.44.0.windows.1
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada
+$ git config --global user.name "aguibarri"
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada
+$ git config --global user.email "73866456@continental.edu.pe"
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada
+$ git config --global -e
+
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada
+$ git init
+Initialized empty Git repository in C:/Users/estudiante/Desktop/Parctica calificada/.git/
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada (master)
+$ git add .
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   images/imagen1.jpg
+        new file:   images/imagen2.png
+        new file:   index.html
+
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada (master)
+$ git commit -m "Esta es la primera version de la app"
+[master (root-commit) cdbef13] Esta es la primera version de la app
+ 3 files changed, 55 insertions(+)
+ create mode 100644 images/imagen1.jpg
+ create mode 100644 images/imagen2.png
+ create mode 100644 index.html
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada (master)
+$ git log
+commit cdbef13135bd730f4ed9dc2d6571e82c1d7b5726 (HEAD -> master)
+Author: aguibarri <73866456@continental.edu.pe>
+Date:   Thu Apr 4 15:01:40 2024 -0500
+
+    Esta es la primera version de la app
+
+UCUXA80102+estudiante@UCUXA80102 MINGW64 ~/Desktop/Parctica calificada (master)
+$
